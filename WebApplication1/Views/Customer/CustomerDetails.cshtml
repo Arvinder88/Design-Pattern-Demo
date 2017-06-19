@@ -1,0 +1,62 @@
+﻿@using DataAccess.Repositories
+@using DataModels.DataObjects
+@model IEnumerable<Customer>
+@{
+    ViewBag.Title = "CustomerDetails";
+}
+
+<h1>Customer Details</h1>
+<br />
+
+<form action="ProductDetails" method="post">
+    <div class="container-fluid">
+
+        <table id="tbProductDetail">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Seciondary Mobile</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+
+                @{
+                    foreach (var item in Model)
+                    {
+                        <tr>
+                           
+                            <td>@item.FirstName @item.LastName</td>
+                            <td>@item.Address</td>
+                            <td>@item.Mobile </td>
+                            <td>@item.SecondaryMobile</td>
+                            <td>
+                                @Html.ActionLink("Edit", "UpdateCustomer", new { CustomerId = item.CustomerID }, new { @class = "btn btn-primary" })
+                                @Html.ActionLink("Remove", "RemoveCustomer", new { CustomerId = item.CustomerID }, new { @class = "btn btn-primary" })
+                            </td>
+                        </tr>
+                    }
+                }
+
+            </tbody>
+        </table>
+        <div class="row">
+            <div class="col-md-6">
+                @Html.ActionLink("Add New", "AddCustomer", "", new { @class = "btn btn-primary" })
+            </div>
+        </div>
+    </div>
+</form>
+
+<script>
+
+    $(document).ready(function () {
+        debugger;
+        $("#tbProductDetail").DataTable();
+    })
+
+
+
+</script>

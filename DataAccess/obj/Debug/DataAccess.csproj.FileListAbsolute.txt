@@ -1,0 +1,14 @@
+E:\Projects\repositoryDemo\WebApplication1\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+E:\Projects\repositoryDemo\WebApplication1\DataAccess\bin\Debug\DataAccess.dll.config
+E:\Projects\repositoryDemo\WebApplication1\DataAccess\bin\Debug\DataAccess.dll
+E:\Projects\repositoryDemo\WebApplication1\DataAccess\bin\Debug\DataAccess.pdb
+E:\Projects\repositoryDemo\WebApplication1\DataAccess\bin\Debug\DataModels.dll
+E:\Projects\repositoryDemo\WebApplication1\DataAccess\bin\Debug\EntityFramework.dll
+E:\Projects\repositoryDemo\WebApplication1\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+E:\Projects\repositoryDemo\WebApplication1\DataAccess\bin\Debug\Newtonsoft.Json.dll
+E:\Projects\repositoryDemo\WebApplication1\DataAccess\bin\Debug\DataModels.pdb
+E:\Projects\repositoryDemo\WebApplication1\DataAccess\bin\Debug\EntityFramework.xml
+E:\Projects\repositoryDemo\WebApplication1\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+E:\Projects\repositoryDemo\WebApplication1\DataAccess\bin\Debug\Newtonsoft.Json.xml
+E:\Projects\repositoryDemo\WebApplication1\DataAccess\obj\Debug\DataAccess.dll
+E:\Projects\repositoryDemo\WebApplication1\DataAccess\obj\Debug\DataAccess.pdb
